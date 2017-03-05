@@ -1,0 +1,1 @@
+document.getElementById("clickme").onclick=function(){alert("jk");}

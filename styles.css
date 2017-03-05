@@ -1,0 +1,24 @@
+body
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	margin: 0;
+}
+ol
+{
+	display: inline-block;
+}
+
+.main
+{
+	height: 100%;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.maincont
+{
+	align-self: center;
+}

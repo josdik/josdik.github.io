@@ -1,0 +1,70 @@
+body
+{
+    margin:0;
+}
+#general
+{
+    margin0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://ericcahan.com/wp-content/uploads/2014/02/EC_0658am_Pamilla-Mexico.jpg);
+    background-size:100%;
+}
+
+#top
+{
+    width: 100%;
+    height:25%;
+    outline: 1px white solid;
+    display: table;
+    line-height: 1000%;
+    color:white;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7d/23/29/7d232901c2c6fce4f05568a95895dd9e.png);
+    background-size:100%;
+}
+
+#left
+{   float:left;
+    width: 20%;
+    height: 60%;
+    
+    
+    
+}
+
+#centre
+
+{   float:left;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
+}
+
+#cp
+{
+    font-family: 'Playfair Display', serif;
+    align-self: center;
+    font-size: 16px;
+    color: white;
+}
+
+#right
+{
+    float:left;
+    width: 20%;
+    height: 60%;
+    
+}
+
+#bottom
+{
+    float: left;
+    width: 100%;
+    height:15%;
+    outline: 1px white solid;
+
+}
+
+
+

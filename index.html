@@ -1,0 +1,84 @@
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="font-awesome-4.7.0\css\font-awesome.css" rel="stylesheet">
+  <link href="bootstrap\css\"
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body onload="initElement();">    
+<div id="general"><!--THIS IS THE WHOLE PAGE-->
+<div id="top"><!--THIS IS THE TOP HEADER-->
+<center>
+<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1></center>
+</div>
+
+
+<div id="left"><!--THIS IS THE LEFT BAR--><img src="c02.png">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.785008326481!2d103.8297761147539!3d1.3040257990489001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da198dea21cc31%3A0x5cbe8874aa0b1b37!2sION+Orchard!5e0!3m2!1sen!2ssg!4v1488614771197" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+ 
+<div id="centre" ><!--THIS IS THE CENTRE AREA-->
+<center>
+<p id="cp"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices nec turpis ut semper. Sed mattis commodo tincidunt. Donec ornare malesuada felis. Etiam nec tellus et arcu tempus dignissim. Aliquam vitae sapien quis nisi feugiat varius id sit amet nisl. Maecenas sagittis sapien sit amet nunc aliquam, at lobortis tellus tempus. Etiam ac aliquam risus. Nulla dignissim finibus mi, nec bibendum justo auctor eu. Phasellus convallis imperdiet nisi, vitae bibendum odio dignissim vitae. Duis sagittis vulputate gravida. Vestibulum eget felis est. Cras placerat sit amet turpis sit amet iaculis. Pellentesque quis ullamcorper nibh, et aliquet felis. Sed quis eros lacinia, imperdiet nulla a, mattis sapien. <br><br>Nam metus elit, volutpat eget sodales in, gravida eget magna.
+Nunc laoreet urna ante, a semper sem consectetur a. Pellentesque eget varius erat, ac tempor tellus. Praesent felis dolor, placerat sit amet euismod ut, rutrum vel leo. Nulla condimentum dolor vel interdum ultrices. Sed in est libero. Suspendisse consequat mauris mi, in semper eros elementum nec. Sed a dui vel felis vulputate convallis. Integer a lorem est. Sed accumsan lorem erat, nec aliquet turpis pulvinar ac. In a sagittis nunc. Etiam at elit eget justo tempus tempus. Donec ornare neque nunc, eu dapibus justo consequat at. Nullam lobortis lacinia est, at maximus nisi vestibulum sed. Cras ut tortor sem.
+
+</p></center>
+<input value="click here" type="button" id="clickme">
+
+</div>
+
+<div id="right"><!--THIS IS THE RIGHT BAR-->
+<img src="c02.png">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D-UmfqFjpl0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id="bottom"><!--THIS IS THE BOTTOM BAR-->
+<center><br>
+<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+<center>
+
+</div>
+</div>
+</body>
+
+<script type="text/javascript">
+function initElement()
+{
+    var anything= document.getElementById("cp");
+    anything.onmouseover=showMouseOver;
+    anything.onmouseout=showMouseOut;
+};
+
+function showMouseOver()
+{
+    var foo=document.getElementById("cp");
+    foo.innerHTML="Lorem fucking ipsum";
+    foo.style="color:red";
+}
+
+
+function showMouseOut()
+{
+    var foo=document.getElementById("cp");
+    foo.innerHTML="ffuccing lorem ipsum";
+    foo.style="color:blue";
+}
+</script>
+
+<script src="jabas.js"></script>
+
+
+
+</html>
